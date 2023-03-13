@@ -1,0 +1,7 @@
+*.csv
+data/feature_data
+data/rank_record_data
+data/model_data
+src/cpp_pkg/tensorflow_protobuf
+logs/
+log

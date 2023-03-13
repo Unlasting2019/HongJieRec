@@ -1,0 +1,3 @@
+/home/tiejianjie/news_rec/src/rank/data_process/build/CMakeFiles/rebuild_cache.dir
+/home/tiejianjie/news_rec/src/rank/data_process/build/CMakeFiles/edit_cache.dir
+/home/tiejianjie/news_rec/src/rank/data_process/build/CMakeFiles/rank_tfrecord.dir
