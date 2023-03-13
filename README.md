@@ -1,6 +1,3 @@
-# HongJieRec
-Tiny Recommend-Engine
-
 # Overview
 * 参考头条推荐架构, 针对用户点击序列和用户曝光序列进行特征计算。
 * 使用pandas或者Spark生成点击和曝光序列以csv保存到磁. csv有两个field: user_id & SeqStruct，SeqStruct是一个四元组Tuple - doc_id/watch_time/ctx_exposedTime/ctx_refreshTimes
