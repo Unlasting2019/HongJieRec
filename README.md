@@ -1,4 +1,4 @@
-# Overview - 参考头条推荐架构, 针对用户行为序列进行特征计算
+# Overview - 参考抖音头条推荐架构, 针对用户行为序列进行特征计算
 1. [SeqGenerate](https://github.com/Unlasting2019/HongJieRec/blob/master/src/feature/feature_main.py) - 使用spark生成用户点击和用户曝光序列（为了防止数据泄漏严格控制使用N-1的数据来构造N的序列）
 2. [FeatureOps](https://github.com/Unlasting2019/HongJieRec/tree/master/src/rank/data_process/src/FeatureOps) - 使用c++构建特征算子MatchOp匹配算子/SequenceOp序列算子/TimeOp时间算子/Product笛卡尔积算子
 3. [FeatureCross](https://github.com/Unlasting2019/HongJieRec/blob/master/src/rank/data_process/src/FeatureProfile.h#L104) - 对于每一条样本根据user_id取出对应的点击序列和曝光序列, 然后根据序列计算用户特征和用户Feed的交叉特征
