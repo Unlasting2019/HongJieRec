@@ -9,6 +9,11 @@
 * CUDA 11.x, [Nvidia/Tensorflow 1.15](https://github.com/NVIDIA/tensorflow), python 3.8
 * GNU-GCC 12.2.0, [cpp_fmt](https://github.com/fmtlib/fmt), protobuf-cpp-3.8
 
+# Todo
+- [] 学习完多线程相关知识实现，实现一个线程池。（目前开启多线程的方式不优雅）
+- [] 学习完锁相关的知识后，读取数据开启多线程加速。（虽然目前读一张csv只需要2s，但考虑到未来大规模数据）
+- [] 深入学习ranges这个库后，dump不定长特征时，删掉手动指定类别。（目前dump的时候要指定类型type，但类型type在编译时都可以被推导出来，没有必要。 ）
+
 # CodeStructure
 ```
 src/
